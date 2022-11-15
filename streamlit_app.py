@@ -30,5 +30,5 @@ streamlit.text(fruityvice_response.json()) # Dump JSON data to the screen
 
 # Format the JSON
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
-# output format as table
-streatmlit.dataframe(fruityvice_normalized)
+# write your own comment - what does this do?
+streamlit.dataframe(fruityvice_normalized)
